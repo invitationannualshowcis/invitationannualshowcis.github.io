@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="../images/logo_new.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <div class="contact-wrap">
+      <div class="contact-in">
+        <h1>Contact Info</h1>
+        <h2><i class="fa-solid fa-phone"></i> Phone</h2>
+        <p>+2-260-565-66 / +2-260-565-68</p>
+        <h2><i class="fa-solid fa-envelope"></i> Email</h2>
+        <p>info@capitalschools.edu.eg</p>
+        <h2><i class="fa-solid fa-location-dot"></i> Address</h2>
+        <p>Area 17 KH-El Narges district - New Cairo, Egypt</p>
+        <ul>
+          <li>
+            <a
+              href="https://www.facebook.com/Capital.International.Schools/?ref=br_rs"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCpEDI6mcRTgRuSLM5Duu8Ww"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/Capitalinternationalschools/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="contact-in">
+        <h1>Send a Message</h1>
+        <form onsubmit="event.preventDefault(); validateForm()">
+          <input
+            for="name"
+            id="name"
+            type="text"
+            placeholder="Full Name"
+            class="contact-in-input"
+          />
+          <small class="error"></small>
+          <input
+            for="email"
+            id="email"
+            type="text"
+            placeholder="Email"
+            class="contact-in-input"
+          />
+          <small class="error"></small>
+          <input
+            for="subject"
+            id="subject"
+            type="text"
+            placeholder="Subject"
+            class="contact-in-input"
+          />
+          <small class="error"></small>
+          <textarea
+            for="message"
+            id="message"
+            placeholder="Message"
+            class="contact-in-textarea"
+          ></textarea>
+          <small class="error"></small>
+          <input type="submit" value="SUBMIT" class="contact-in-btn" />
+          <p id="success"></p>
+        </form>
+      </div>
+      <div class="contact-in">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.8051776383413!2d31.457426715403184!3d30.01375002697628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14582327af038d4d%3A0xb33a5f53ed30d038!2sCapital%20International%20Schools!5e0!3m2!1sen!2seg!4v1684940499884!5m2!1sen!2seg"
+          width="100%"
+          height="auto"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+    <script src="contact.js"></script>
+  </body>
+</html>
