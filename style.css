@@ -48,10 +48,10 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex; /* Updated */
 }
 
 .navigation-bar li {
-  float: left;
   margin-right: 100px;
   background-color: #eee;
   border-radius: 20px;
@@ -73,7 +73,6 @@ body {
 }
 
 .dropdown {
-  float: left;
   overflow: hidden;
 }
 
